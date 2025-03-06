@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "<p>Hello, Flask!</p>"
+    return "<p>Hello, Flask! Hi It is a modif</p>"
 
 if __name__ == '__main__':
     app.run(debug=True)
